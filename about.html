@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <div class="menu">
+            <img src="menu-bar.png" class="menu">
+        </div>
+        
+            <div class="head">
+                <h1>Simphiwe December Bootcamp</h1>
+            </div>
+        </div>
+
+    <div class="navbar">
+   
+    
+        <ul>
+          <a href="index.html">  <li>home</li></a>
+           <a href="about.html"> <li>about</li></a>
+            <li>Lessons</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+<body background="boot-6.jpg">
+
+    <h1 class="notice">welcome to our registration<br>platform</h1>
+
+    <div class="content">
+        <p>This is a bootcamp for people who might be intrested into building an amazing tech skill like being able to 
+            create websites.
+        In short the bootcamp is a basic intro to web development.<br>
+    </p>
+    <h1>
+        What are you going to learn?
+    </h1>
+    <p>Coding in HTML which is a markup language ,learning css which includes styling your websites and making them
+        feel more authetic.
+    </p>
+    </div>
+<div class="continue">
+    <p>To continue registration click on this button below</p>
+</div>
+    <div class="whatsapp_us">
+      <a href="https://wa.me/%2B27606726906?text=Hi%20i'm%20intrested%20in%20your%20bootcamp">
+      <button class="whatsapp_us">
+            whatsapp_us
+        </button></a>
+    </div>
+
+
+    <div class="back">
+        <a href="index.html" class="rounded mx-auto d-block"><img src="back.png"></a>
+    </div>
+
+
+<script>
+    let nav=document.querySelector(".navbar");
+    let menu=document.querySelector('.menu');
+
+    menu.addEventListener('click',()=>{
+        if (nav.style.display=="none"){
+            nav.style.display="block"
+        }
+        else{
+            nav.style.display="none"
+        }
+    });
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
